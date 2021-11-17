@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+.title {
+    font-family: 'Domine', serif;
+    font-size: 50px;
+    font-style: oblique;
+    text-decoration: none;
+    color: black;
+}
+
+.title:hover {
+    cursor: default;
+}

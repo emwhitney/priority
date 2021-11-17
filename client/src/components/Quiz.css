@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+.questions {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    display: inline;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.question {
+    margin: 20px 0px 40px 20px;
+}
+
+.rank-question {
+    margin: 10px 0px 10px 10px;
+    display: inline;
+}
+
+input[type=text] {
+    border: 2px solid black;
+    font-family: inherit;
+    font-size: 80%;
+    margin: 10px 0px 0px 10px;
+    display: inline;
+    padding: 5px;
+}
+
+input[type=text]:focus {
+    background-color:greenyellow;
+}
+
+input[type='radio']{
+    font-family: inherit;
+    font-style: italic;
+    font-size: 80%;
+    display: none;
+}
+
+input:checked + label {
+    background-color: greenyellow;
+}
+
+input:checked + .number-label {
+    background-color: greenyellow;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.number-label {
+    margin-right: 5px;
+    padding: 5px 9px;
+    font-weight: bold;
+}
+
+.number-label:hover {
+    background-color: greenyellow;
+}
+
+.label:hover {
+    background-color:greenyellow;
+}
+
+.submit-button {
+    margin-left: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid black;
+    font-family: 'Domine', serif;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.submit-button:hover {
+    box-shadow: 5px 5px 0px 0px black;
+    background-color:greenyellow;
+    border: 2px solid black;
+    cursor: default;
+}

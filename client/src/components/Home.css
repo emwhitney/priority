@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-title {
+    font-family: 'Domine', serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.subtitle {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.home-buttons {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dome', serif;
+    font-size: 30px;
+}
+
+.home-button {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.home-button:hover {
+    background-color: #ADFF2F; 
+    text-align: center;
+    outline: 1px solid black;
+    width: 200px;
+    cursor: default;
+    box-shadow: 5px 5px 0 0 black;
+}

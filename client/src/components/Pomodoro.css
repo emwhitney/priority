@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+.pomo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interval-container {
+    display: flex;
+    align-items: center;
+}
+
+.interval-parent-container {
+    display: flex;
+    gap: 50px;
+    font-family: 'Domine', serif;
+}
+
+.clock-container {
+    margin-top: 20px;
+    font-family: 'Domine', serif;
+    border: 2px solid;
+    width: 250px;
+    text-align: center;
+    box-shadow: 5px 5px 0 0;
+    background-color: tomato;
+    padding: 10px;
+}
+
+.timer-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.session-header {
+    margin-top: 10px;
+}
+
+.length-header {
+    text-align: center;
+    font-size: 1rem;
+    height: 5px;
+}
+
+.button-pomo {
+    padding: 5px 12px;
+    font-family: 'Domine', serif;
+    margin: 0 10px;
+    height: 25px;;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+}
+
+.timer {
+    font-size: 4rem;
+}
+
+.button-pomo:hover {
+    background-color: tomato;
+    box-shadow: 2px 2px 0 0;
+}
+
+.interval-choice {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+#break-interval {
+    display: flex;
+}
+
+#session-interval {
+    display: flex;
+}
+
+#pomo-header {
+    display: flex;
+    font-size: 30px;
+    font-family: 'Domine', serif;
+    margin: 20px;
+}
+
+#clock {
+    display: flex;
+    font-size: 50px;
+    font-family: 'Domine', serif;
+    margin: 0px 0px 10px 30px;
+}
+
+#play-button {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    margin: 0px 0px 10px 30px;
+}
+
+#pause-button {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    margin: 0px 0px 10px 30px;
+}
