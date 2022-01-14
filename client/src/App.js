@@ -12,6 +12,7 @@ function App() {
   const [taskList, setTaskList] = useState([]);
 
   useEffect(() => {
+    document.title = "Priority"
     getTaskList();
   }, []);
 

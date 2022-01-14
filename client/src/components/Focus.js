@@ -3,8 +3,19 @@ import Title from "./Title";
 import Pomodoro from "./Pomodoro";
 
 function Focus({ taskList }) {
-  const primaryTask = taskList[0].task;
-  const primaryTaskType = taskList[0].type;
+
+  //check to see if no tasks
+  //if tasks, show the top-most task
+  let primaryTask, primaryTaskType
+  if(taskList.length === 0) {
+    primaryTask = 'No tasks! Go add some!'
+    primaryTaskType = 'N/A'
+  }
+  else {
+    primaryTask = taskList[0].task;
+    primaryTaskType = taskList[0].type;
+  }
+  
 
   return (
     <div>

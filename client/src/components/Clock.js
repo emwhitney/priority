@@ -15,8 +15,7 @@ function Clock({ timerMinute, updateTimerMinute, resetTimer, toggleInterval }) {
               setIsSession(false);
               toggleInterval(isSession);
               setPlaying(false);
-            }
-            else {
+            } else {
               setIsSession(true);
               toggleInterval(isSession);
               setPlaying(false);
@@ -28,6 +27,7 @@ function Clock({ timerMinute, updateTimerMinute, resetTimer, toggleInterval }) {
           setTimerSecond((prev) => prev - 1);
         }
       }, 1000);
+      //once isPlaying stops, cancels timed repeating action
       return () => clearInterval(interval);
     }
   });
@@ -61,9 +61,15 @@ function Clock({ timerMinute, updateTimerMinute, resetTimer, toggleInterval }) {
         </span>
       </div>
       <div className="timer-actions">
-        <button className='button-pomo' onClick={play}>Play</button>
-        <button className='button-pomo' onClick={pause}>Pause</button>
-        <button className='button-pomo' onClick={refresh}>Refresh</button>
+        <button className="button-pomo" onClick={play}>
+          Play
+        </button>
+        <button className="button-pomo" onClick={pause}>
+          Pause
+        </button>
+        <button className="button-pomo" onClick={refresh}>
+          Refresh
+        </button>
       </div>
     </div>
   );

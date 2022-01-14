@@ -41,6 +41,7 @@ function TaskList({ taskList, getTaskList }) {
   ];
 
   //memoization to avoid constant re-rendering
+  //only computes the value when one of the values has changed
   const data = useMemo(() => taskList, [taskList]);
   const columns = useMemo(() => COLUMNS, []);
 
