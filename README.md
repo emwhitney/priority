@@ -1,7 +1,7 @@
 # Priorty
 Priority is a personal assistant for when you don't know what to do next. 
 
-The inspiration for this app came after seeing an (unfortunately lost) TikTok of a person explaining that people with ADHD could benefit greatly from a digital personal assistant to help them better understand how to stay on top of their responsibilities. I decided to make a version of this!
+The inspiration for this app came from seeing an (unfortunately lost) TikTok of a person explaining that people with ADHD could benefit from a digital personal assistant to help understand how to stay on top of their responsibilities. As someone with ADHD, I concurred and decided to make a version!
 
 ## The app contains three pages:
 1. A quiz on the urgency of and passion for a new task
