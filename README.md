@@ -8,10 +8,10 @@ The inspiration for this app came after seeing an (unfortunately lost) TikTok of
 2. A database of submitted tasked ranked by the combination of these criteria
 3. A focus screen that offers up the most important task along with a Pomodoro timer
 
-## You can see a demo here:
+## Demo:
 https://www.youtube.com/watch?v=AcEwSDqEn_4&list=PLgOcudnuZo3ga6tAz2tG6Q7r2Njvce-IL
 
-## Installation and useage
+## Installation and useage:
 Run the client:
 cd client && npm i && npm start
 Run the server:
