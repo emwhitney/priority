@@ -12,9 +12,9 @@ The inspiration for this app came from seeing an (unfortunately lost) TikTok of 
 https://www.youtube.com/watch?v=AcEwSDqEn_4&list=PLgOcudnuZo3ga6tAz2tG6Q7r2Njvce-IL
 
 ## Installation and useage:
-Run the client:
+### Run the client:
 cd client && npm i && npm start
-Run the server:
+### Run the server:
 cd server && npm i && npm start
 
 
