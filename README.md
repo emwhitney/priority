@@ -18,6 +18,7 @@ cd client && npm i && npm start
 cd server && npm i && npm start
 ### Set up MySQL:
 1. Download MySQL workbench
-2. Match connection credentials in /server/db.js 
-3. Database adhdtaskmanager should have one table called "tasks"
-4. Task column names in order: taskid, priority, task, type, date-added
+3. Match connection credentials in /server/db.js 
+4. Create a schema named "adhdtaskmanager" 
+5. Database adhdtaskmanager should have one table called "tasks"
+6. Task column names in order: taskid, priority, task, type, date-added
